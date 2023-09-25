@@ -4,7 +4,7 @@
   tasks:
     - name: Create new container snapshot
       community.general.proxmox_snap:
-   #     api_user: root@pam
+        api_user: root@pam
      #   api_password: 
         api_host: 192.168.23.38
         vmid: 212
